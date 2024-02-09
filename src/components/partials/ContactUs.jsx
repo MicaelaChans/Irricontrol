@@ -1,5 +1,5 @@
 import Form from "react-bootstrap/Form";
-import "../../css/contact.css";
+import "../../css/styles.css";
 
 function ContactUs() {
   return (

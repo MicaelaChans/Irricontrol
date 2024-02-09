@@ -1,4 +1,4 @@
-import "../../css/footer.css";
+import "../../css/styles.css";
 
 function Footer() {
   return (
@@ -11,16 +11,16 @@ function Footer() {
           <div className="col-6">
             <div className="mt-3 gap-3 d-flex justify-content-end">
               <h4>
-                <i class="bi bi-instagram"></i>
+                <i className="bi bi-instagram"></i>
               </h4>
               <h4>
-                <i class="bi bi-whatsapp"></i>
+                <i className="bi bi-whatsapp"></i>
               </h4>
               <h4>
-                <i class="bi bi-twitter"></i>
+                <i className="bi bi-twitter"></i>
               </h4>
               <h4>
-                <i class="bi bi-facebook"></i>
+                <i className="bi bi-facebook"></i>
               </h4>
             </div>
           </div>

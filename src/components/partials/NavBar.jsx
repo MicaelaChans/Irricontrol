@@ -1,20 +1,36 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import Button from "react-bootstrap/Button";
+import "../../css/styles.css";
 
 function NavBar() {
   return (
     <>
-      <div className="container">
-        <Navbar bg="light" data-bs-theme="light">
+      <div className="containerNav">
+        <Navbar
+          bg="light"
+          data-bs-theme="light"
+          className="navbar navbar-expand-md shadow-sm"
+        >
           <Container>
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-            <Nav className="me-auto">
-              <Nav.Link href="#">Irricontrol</Nav.Link>
-              <Nav.Link href="#">Huella Hidrica</Nav.Link>
-              <Nav.Link href="#">Servivios</Nav.Link>
-              <Nav.Link href="#">Nosotros</Nav.Link>
-              <button className="btn btn-primary">Contacto</button>
+            <Navbar.Brand href="/">
+              <img id="logo" src="./img/core-img/logo3.png" alt="Irricontrol" />
+            </Navbar.Brand>
+            <Nav className="d-flex align-items-center">
+              <Nav.Link href="#" className="nav-item">
+                Inovación Irricontrol
+              </Nav.Link>
+              <Nav.Link href="#" className="nav-item">
+                Servivios
+              </Nav.Link>
+              <Nav.Link href="#" className="nav-item">
+                Huella Hídrica
+              </Nav.Link>
+              <Nav.Link href="#" className="nav-item">
+                Nosotros
+              </Nav.Link>
+              <Button className="colorContact">Contacto</Button>
             </Nav>
           </Container>
         </Navbar>
