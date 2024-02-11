@@ -68,7 +68,7 @@ function ContactUs() {
               </div>
               <Form.Group className="d-flex justify-content-sm-end justify-content-center mt-5">
                 <button
-                  className="btn btn-primary mb-5"
+                  className="btn btn-dark mb-5"
                   type="submit"
                   value="Send"
                 >
